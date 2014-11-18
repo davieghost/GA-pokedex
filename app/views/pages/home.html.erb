@@ -1,0 +1,8 @@
+<form action="/result" method="get">
+<select  name="name" id="">
+<%@result.each do |foo|%>
+	<option value="<%= foo['name'] %>"><%= foo['name'] %></option>
+<%end%>
+</select>
+<input type="submit">
+</form>
