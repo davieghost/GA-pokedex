@@ -1,2 +1,1 @@
-pokedex
-=======
+### Indexing assignment for BEWD-generalAssembly
